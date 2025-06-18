@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of a Musical Theater Actress.">
+    <title>Anne Bragg - Musical Theater Actress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bio">Biography</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h1>Welcome to Jane Doe's Official Website</h1>
+            <p>Musical Theater Actress. Singer. Performer.</p>
+        </div>
+    </section>
+
+    <section id="bio">
+        <h2>Biography</h2>
+        <p>Jane Doe is a passionate and versatile musical theater actress with over 10 years of experience on the stage. From Broadway hits to local productions, she has performed in various iconic roles...</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="img/perform1.jpg" alt="Performance 1">
+            <img src="img/perform2.jpg" alt="Performance 2">
+            <img src="img/perform3.jpg" alt="Performance 3">
+        </div>
+        <p>Browse through some of my favorite moments on stage!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you're interested in collaborating or booking Jane for a performance, please reach out through the form below.</p>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jane Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
